@@ -1,2 +1,3 @@
 # desgin-partterns
-学习记录
+head first design pattern
+学习笔记
