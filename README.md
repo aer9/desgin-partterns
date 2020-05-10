@@ -1,3 +1,2 @@
 # desgin-partterns
-head first design pattern
-learning ...
+learn head first design pattern 
