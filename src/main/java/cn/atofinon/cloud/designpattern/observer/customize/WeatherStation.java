@@ -13,6 +13,7 @@ public class WeatherStation {
         WeatherData weatherData  = new WeatherData();
         CurrentConditionsObserver currentConditionsObserver = new CurrentConditionsObserver(weatherData);
 
+        currentConditionsObserver.update(100,5,55.45f);
         weatherData.setMeasurementChanged(80,65,30.45f);
     }
 }
