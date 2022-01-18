@@ -1,0 +1,8 @@
+@startuml
+gateway ->gateway: token等参数校验
+gateway->biz: 适配不同场景的逻辑处理
+biz->power: 用户 文件权限校验
+power->biz:校验结果
+biz->gateway:结果
+
+@enduml
